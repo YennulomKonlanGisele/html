@@ -1,8 +1,8 @@
 <?php
 //code used to connect the php to a database in mysqli
-$host="localhost";
+$host="127.0.0.1";
 $user="root";
-$password="";
+$password="123";
 $database_name="calculator";
 
 $connect=mysqli_connect($host, $user, $password) or die("could not connect"); //line of code used to connect to databse
